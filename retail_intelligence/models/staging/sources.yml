@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: retail_raw
+    description: Raw retail data imported from Databricks into Snowflake
+    database: RETAIL_INTELLIGENCE
+    schema: RAW
+
+    tables:
+      - name: customers
+      - name: products
+      - name: stores
+      - name: orders
+      - name: order_items
+      - name: returns
+      - name: inventory_snapshots
+      - name: promotions

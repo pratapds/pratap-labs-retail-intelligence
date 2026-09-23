@@ -1,0 +1,40 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs and temporary files
+logs/
+*.log
+.tmp/
+temp/
+
+# dbt generated files
+**/target/
+**/dbt_packages/
+**/packages.yml.lock
+**/.user.yml
+
+# Credentials and local configuration
+**/profiles.yml
+.env
+.env.*
+*.pem
+*.p8
+*.key
+*.pub
+
+# Power BI working and binary files
+*.pbix
+*.pbit
+~$*
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Default dbt example models
+retail_intelligence/models/example/
